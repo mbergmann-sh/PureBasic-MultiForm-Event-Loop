@@ -1,12 +1,12 @@
 ﻿;/ Created with PureVision64 v6.01 x64
-;/ Mon, 27 Mar 2023 09:32:13
+;/ Mon, 27 Mar 2023 11:07:13
 ;/ by Michael Bergmann                
 
 
 
 
 
-XIncludeFile "C:\PureVision64\Modules\Module_PVGadgets.pbi"
+XIncludeFile "Modules\Module_PVGadgets.pbi"
 
 ;- Required Image Decoders
 UsePNGImageDecoder()
@@ -83,3 +83,8 @@ DataSection
 EndDataSection
 
 
+
+; IDE Options = PureBasic 6.01 LTS (Windows - x64)
+; CursorPosition = 46
+; EnableXP
+; DPIAware
