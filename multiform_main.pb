@@ -2,7 +2,12 @@
 ; Basis Main Event Loop für Programme mit mehreren Dialogen / Forms
 ; Version 2.01 Stand 27.03.2023
 
-XIncludeFile "multiform_Constants.pb"
+CompilerIf  #PB_Compiler_OS = #PB_OS_Linux Or #PB_Compiler_OS = #PB_OS_MacOS
+    XIncludeFile "multiform_Constants_linux_mac.pb"
+CompilerElse
+  XIncludeFile "multiform_Constants.pb"
+CompilerEndIf
+
 XIncludeFile "multiform_Windows.pb"
 
 ; -- Basis Event Main Loop --
@@ -76,9 +81,9 @@ EndIf
 
 End   ; --> Schließt alle noch offenen Fenster und gibt den reservierten Speicher frei
      
-; IDE Options = PureBasic 6.01 LTS (Windows - x64)
-; CursorPosition = 67
-; FirstLine = 20
+; IDE Options = PureBasic 6.01 LTS (Linux - x64)
+; CursorPosition = 8
+; Folding = -
 ; EnableXP
 ; DPIAware
 ; UseIcon = ..\..\Icon_Library\open_icon_library-win\icons\16x16\emblems\emblem-multimedia.ico

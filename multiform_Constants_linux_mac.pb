@@ -95,8 +95,7 @@ DataSection
   CompilerEndIf
 EndDataSection
 ; IDE Options = PureBasic 6.01 LTS (Linux - x64)
-; CursorPosition = 12
-; FirstLine = 4
+; CursorPosition = 92
 ; Folding = -
 ; EnableXP
 ; DPIAware
