@@ -18,4 +18,4 @@ Steps:
 9. Select main file, copy menu and gadget events to the appropriate places in your new main project file.
 10. Fill in code to open other forms in the main section of your new main project file.
 11. Compile your project to check wether all windows can be closed.
-12. Start developing by filling your gadgets nd menus with life.
+12. Start developing by filling your gadgets and menus with life.
