@@ -29,3 +29,5 @@ In Order to fix this, please open multiform_constants.pb and do some small chang
 2. in line 80, do the same for IncludeBinary "Images\gunni.png"
 3. in line 82, do the same for IncludeBinary "Images\wzAminetUploader.png"
 4. Save and compile.
+
+These steps should not be neccessary any longer, since conditional compiling and a special include file for Linux/OS X were added recently.
