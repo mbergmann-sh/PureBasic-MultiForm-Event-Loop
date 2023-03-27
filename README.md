@@ -19,3 +19,13 @@ Steps:
 10. Fill in code to open other forms in the main section of your new main project file.
 11. Compile your project to check wether all windows can be closed.
 12. Start developing by filling your gadgets and menus with life.
+
+Hints for compiling under Linux and OS X
+========================================
+This demo program was developed under Windows, so you might encounter some problems when trying to compile it under Linux or OS X.
+In Order to fix this, please open multiform_constants.pb and do some small changes:
+
+1. in line 9, replace the backslash (\) in "Modules\Module_PVGadgets.pbi" by a slash (/).
+2. in line 80, do the same for IncludeBinary "Images\gunni.png"
+3. in line 82, do the same for IncludeBinary "Images\wzAminetUploader.png"
+4. Save and compile.
